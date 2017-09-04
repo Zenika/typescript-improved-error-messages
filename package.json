@@ -1,0 +1,25 @@
+{
+  "name": "typescript-improved-error-messages",
+  "version": "1.0.0",
+  "description": "How can TypeScript error messages be improved to better track down type errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenika/typescript-improved-error-messages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zenika/typescript-improved-error-messages/issues"
+  },
+  "homepage": "https://github.com/Zenika/typescript-improved-error-messages#readme",
+  "devDependencies": {
+    "circular-json": "^0.3.3",
+    "json-stringify-safe": "^5.0.1",
+    "typescript": "^2.5.2"
+  }
+}
