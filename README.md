@@ -30,6 +30,6 @@ c.otherProp;
 //   Type inferred from variable declaration at <file>:<line 19>:<col>
 ```
 
-See `observations.md`.
+See [`observations.md`](./observations.md).
 
 It seems possible to compute whether or not a type is inferred for a given TypeObject, and the TypeChecker object would be a good place to implement this logic. However it is not obvious where this method should be used to create the new error messages. Those error messages, even just the property access ones, are generated in several places in the compiler code.
